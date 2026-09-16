@@ -1,0 +1,7 @@
+pyproject.toml
+torch_demo/__init__.py
+torch_demo.egg-info/PKG-INFO
+torch_demo.egg-info/SOURCES.txt
+torch_demo.egg-info/dependency_links.txt
+torch_demo.egg-info/requires.txt
+torch_demo.egg-info/top_level.txt

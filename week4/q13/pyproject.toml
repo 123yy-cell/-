@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greetlab"
+version = "0.1.0"
+
+[project.scripts]
+sdt-greet = "greetlab.cli:main"
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["."]
+pythonpath = ["src"]
